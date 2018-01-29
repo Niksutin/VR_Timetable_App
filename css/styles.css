@@ -1,0 +1,33 @@
+body {
+  margin-left: 10%;
+}
+
+#chooseStation {
+  width:15em;
+}
+
+ul.dropdown-menu {
+  height: auto;
+  max-height: 20em;
+  overflow-x: hidden;
+  text-align: center;
+  width:15em;
+  margin-top:5px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  width: 10em;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

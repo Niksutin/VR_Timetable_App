@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VR Timetable App</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<h1>VR Timetable App</h1>
+
+	<!-- Container div for clock -->
+	<div id="clock"></div>
+
+	<!-- Container div for dropdown menu -->
+	<div class="dropdown">
+		<button id="chooseStation" class="btn btn-primary dropdown-toggle" type="button" aria-expanded="true" data-toggle="dropdown">
+			Choose station <span class="caret"></span></button>
+		<ul id="stations" class="dropdown-menu scrollable-menu">
+			<input type="text" id="searchInput" placeholder="Search..">
+		</ul>
+	</div>
+
+	<!-- Container for station specific content -->
+	<div id="stationContent"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
